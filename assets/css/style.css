@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d8d1d1;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* ======================CABEÇALHO===================== */
+#cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#cabecalho img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#cabecalho #cabecalho-perfil {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+#cabecalho #cabecalho-perfil div {
+    display: flex;
+    flex-direction: column;
+}
+
+#cabecalho h2 {
+    font-size: 25px;
+}
+
+#cabecalho h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#cabecalho #cabecalho-perfil div p {
+    font-size: 20px;
+}
+
+#cabecalho #cabecalho-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#cabecalho #cabecalho-contato div {
+    display: flex;
+    gap: 10px;
+}
+
+#cabecalho #contato-redes-sociais ul {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+/* ======================FIM DO CABEÇALHO===================== */
+
+#informacoes {
+    background-color: rgb(152, 197, 197);
+    border-radius: 50px 50px 0 0;
+    padding: 20px;
+}
+
+#informacoes #boxes {
+    display: flex;
+}
+
+#informacoes #box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+}
+
+#informacoes .box {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+#informacoes .box i {
+    font-size: 25px;
+}
+
+#informacoes .box h3 {
+    font-size: 25px;
+}
+
+#informacoes .box p {
+    font-size: 20px;
+}
+
+#informacoes #cursos h4 {
+    font-size: 18px;
+}
+
+#informacoes #cursos p {
+    font-size: 18px;
+}
+
+#informacoes #projetos-escolares ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 18px;
+    list-style: none;
+}
+
+#informacoes #projetos-escolares ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#informacoes #projetos-escolares ul i {
+    font-size: 18px;
+}
+
+#informacoes #box2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#informacoes #experiencia h4 {
+    font-size: 20px;
+}
+
+#informacoes #experiencia div {
+    margin: 15px 0;
+}
+
+#informacoes #experiencia div div {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0 10px 0;
+}
+
+#informacoes #experiencia p {
+    font-size: 20px;
+}
+
+#informacoes #habilidades div .barra {
+    width: 100%;
+    background-color: #e0d9d9;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+#informacoes #habilidades div .barra-inferior {
+    background-color: rgb(186, 236, 93);
+    height: 20px;
+    border-radius: 10px;
+}
+
+#informacoes #habilidades #baixe-curriculo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#informacoes #baixe-curriculo .btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #3bbb57;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 18px;
+    width: fit-content;
+}
+
+#informacoes #baixe-curriculo .btn:hover {
+    background-color: #32a34a;
+}
+
+#informacoes #projetos-pessoais {
+    width: 80%;
+    margin: 10px 5%;
+    /* background-color: #89d89a; */
+}
+
+#informacoes #projetos-pessoais-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#informacoes #projetos-pessoais #projetos-lista {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#informacoes #projetos-pessoais #projetos-lista .bloco-projeto {
+    width: 45%;
+    text-align: center;
+    /* background-color: #d8d3d3; */
+    padding: 15px;
+    border: 1px solid #a09d9d;
+    margin: 40px 0;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#informacoes #projetos-pessoais #projetos-lista div a {
+    text-decoration: none;
+    color: #000;
+}
+
+#informacoes #projetos-pessoais #projetos-lista div p {
+    font-size: 22px;
+    text-align: left;
+    margin: 20px 0;
+}
+
+#informacoes #projetos-pessoais #projetos-lista div .img-projetos {
+    width: 90%;
+    margin: 0 auto;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+}
+
+#informacoes #projetos-pessoais #projetos-lista div #img-Formula1 {
+    background-image: url('../images/ProjetoF1png.png');
+}
+
+#informacoes #projetos-pessoais #projetos-lista div #img-ProjetoCadastro {
+    background-image: url('../images/delivery.jpg');
+}
+
+#informacoes #projetos-pessoais #projetos-lista div #img-Cliber {
+    background-image: url('../images/cliber.png');
+}
+
+#informacoes #projetos-pessoais #projetos-lista div #img-Stackinho {
+    background-image: url('../images/Prancheta1.png');
+    width: 90%;
+    height: 200px;
+}
