@@ -135,7 +135,7 @@ a {
     margin: 10px 0;
 }
 
-#informacoes .box:hover{
+#informacoes .box:hover {
     transform: scale(1.03) !important;
     transition: transform 0.5s cubic-bezier(0.4, 0.2, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0.2, 0.2, 1) !important;
     cursor: default !important;
@@ -325,3 +325,518 @@ a {
 }
 
 /* ======================FIM DA MAIN===================== */
+
+
+
+/* ======================RESPONSIVO===================== */
+
+/* RESPONSIVO DO NOTEBOOK */
+@media (max-width: 1024px) {
+    #cabecalho {
+        padding: 15px;
+    }
+
+    #cabecalho img {
+        width: 120px;
+        height: 120px;
+    }
+
+    #cabecalho h1 {
+        font-size: 32px;
+    }
+
+    #cabecalho h2 {
+        font-size: 20px;
+    }
+
+    #cabecalho #cabecalho-perfil {
+        gap: 20px;
+    }
+
+    #cabecalho #cabecalho-perfil div p {
+        font-size: 18px;
+    }
+
+    #cabecalho #cabecalho-contato {
+        font-size: 18px;
+        gap: 10px;
+    }
+
+    #cabecalho #cabecalho-contato div i {
+        font-size: 22px;
+    }
+
+    #informacoes #boxes {
+        flex-direction: column;
+    }
+
+    #informacoes #box1,
+    #informacoes #box2 {
+        width: 100%;
+    }
+
+    #informacoes .box {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    #informacoes #projetos-pessoais {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #informacoes #projetos-pessoais #projetos-lista {
+        gap: 20px;
+    }
+
+    #informacoes #projetos-pessoais #projetos-lista .bloco-projeto {
+        width: 48%;
+    }
+}
+
+/* RESPONSIVO DO TABLET */
+@media (max-width: 768px) {
+    #cabecalho {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #cabecalho #cabecalho-perfil {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    #cabecalho img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #cabecalho h1 {
+        font-size: 26px;
+    }
+
+    #cabecalho h2 {
+        font-size: 18px;
+    }
+
+    #cabecalho #cabecalho-perfil div p {
+        font-size: 16px;
+    }
+
+    #cabecalho #cabecalho-contato {
+        align-items: center;
+        font-size: 16px;
+    }
+
+    #cabecalho #contato-redes-sociais ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #informacoes #boxes {
+        flex-direction: column;
+    }
+
+    #informacoes #box1,
+    #informacoes #box2 {
+        width: 100%;
+    }
+
+    #informacoes .box {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    #informacoes #projetos-pessoais {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #informacoes #projetos-pessoais #projetos-lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #informacoes #projetos-pessoais #projetos-lista .bloco-projeto {
+        width: 95%;
+        margin: 15px 0;
+    }
+}
+
+/* RESPONSIVO DO MOBILE L */
+@media (max-width: 425px) {
+
+    /* CABEÇALHO */
+    #cabecalho {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    #cabecalho img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #cabecalho #cabecalho-perfil {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    #cabecalho h1 {
+        font-size: 28px;
+    }
+
+    #cabecalho h2 {
+        font-size: 20px;
+    }
+
+    #cabecalho #cabecalho-perfil div p {
+        font-size: 16px;
+    }
+
+    #cabecalho #cabecalho-contato {
+        font-size: 16px;
+        align-items: center;
+    }
+
+    #cabecalho #cabecalho-contato div {
+        justify-content: center;
+    }
+
+    #cabecalho #contato-redes-sociais ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    /* INFORMAÇÕES MAIN */
+    #informacoes #boxes {
+        flex-direction: column;
+    }
+
+    #informacoes #box1 {
+        width: 100%;
+        padding: 5px;
+    }
+
+    #informacoes #box2  {
+        width: 100%;
+        margin-left: 5px;
+    }
+    
+    #informacoes .box {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    #informacoes .box h3 {
+        font-size: 20px;
+    }
+
+    #informacoes .box p {
+        font-size: 16px;
+    }
+
+    #informacoes #cursos h4,
+    #informacoes #cursos p,
+    #informacoes #projetos-escolares ul,
+    #informacoes #experiencia p {
+        font-size: 16px;
+    }
+
+    #informacoes #projetos-escolares ul li {
+        align-items: flex-start;
+    }
+
+    #informacoes #habilidades div .barra-inferior {
+        height: 15px;
+    }
+
+    #informacoes #baixe-curriculo .btn {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    /* PROJETOS PESSOAIS */
+    #informacoes #projetos-pessoais {
+        width: 100%;
+        margin: 0;
+    }
+
+    #informacoes #projetos-pessoais-titulo {
+        font-size: 24px;
+        flex-direction: column;
+    }
+
+    #informacoes #projetos-pessoais #projetos-lista {
+        flex-direction: column;
+        align-items: center;
+        font-size: 18px;
+    }
+
+    #informacoes #projetos-pessoais #projetos-lista .bloco-projeto {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    #informacoes #projetos-pessoais #projetos-lista div p {
+        font-size: 18px;
+    }
+
+    #informacoes #projetos-pessoais #projetos-lista div .img-projetos {
+        width: 100%;
+        height: 150px;
+    }
+
+    /* Imagens específicas dos projetos */
+    #informacoes #projetos-pessoais #projetos-lista div #img-Stackinho {
+        height: 150px;
+    }
+}
+
+/* RESPONSIVO DO MOBILE M */
+@media (max-width: 320px) {
+    /* CABEÇALHO */
+    #cabecalho {
+        padding: 8px;
+    }
+
+
+    #cabecalho img {
+        width: 80px;
+        height: 80px;
+    }
+
+    #cabecalho h1 {
+        font-size: 22px;
+    }
+
+    #cabecalho h2 {
+        font-size: 18px;
+    }
+
+    #cabecalho #cabecalho-perfil div p {
+        font-size: 14px;
+    }
+
+    #cabecalho #cabecalho-contato {
+        font-size: 14px;
+        gap: 5px;
+    }
+
+    #cabecalho #cabecalho-contato div i {
+        font-size: 20px;
+    }
+
+    #cabecalho #contato-redes-sociais ul {
+        gap: 10px;
+    }
+
+    #cabecalho #contato-redes-sociais ul li {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* INFORMAÇÕES MAIN */
+    #informacoes {
+        padding: 15px 10px;
+    }
+
+    #informacoes h1 {
+        margin-left: 60px !important;
+    }
+
+    #informacoes .box {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    #informacoes .box h3 {
+        font-size: 18px;
+    }
+
+    #informacoes .box p,
+    #informacoes #experiencia p,
+    #informacoes #cursos h4,
+    #informacoes #cursos p,
+    #informacoes #projetos-escolares ul {
+        font-size: 14px;
+    }
+
+    #informacoes #habilidades div .barra-inferior {
+        height: 12px;
+    }
+
+    #informacoes #baixe-curriculo .btn {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
+    /* PROJETOS PESSOAIS */
+    #informacoes #projetos-pessoais {
+        width: 100%;
+        margin: 0;
+    }
+
+    #informacoes #projetos-pessoais-titulo {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #informacoes #projetos-pessoais #projetos-lista {
+        font-size: 16px;
+        gap: 15px;
+    }
+
+    #informacoes #projetos-pessoais #projetos-lista .bloco-projeto {
+        width: 100%;
+        padding: 10px;
+        margin: 15px 0;
+    }
+
+    #informacoes #projetos-pessoais #projetos-lista div p {
+        font-size: 16px;
+    }
+
+    #informacoes #projetos-pessoais #projetos-lista div .img-projetos {
+        height: 120px;
+    }
+
+    #informacoes #projetos-pessoais #projetos-lista div #img-Stackinho {
+        height: 120px;
+    }
+}
+
+/* RESPONSIVO DO MOBILE S */
+@media (max-width: 375px) {
+    /* CABEÇALHO */
+    #cabecalho {
+        padding: 10px;
+        gap: 15px;
+    }
+
+    #cabecalho img {
+        width: 90px;
+        height: 90px;
+    }
+
+    #cabecalho h1 {
+        font-size: 24px;
+    }
+
+    #cabecalho h2 {
+        font-size: 18px;
+    }
+
+    #cabecalho #cabecalho-perfil {
+        gap: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #cabecalho #cabecalho-perfil div p {
+        font-size: 15px;
+    }
+
+    #cabecalho #cabecalho-contato {
+        font-size: 15px;
+        gap: 8px;
+        align-items: center;
+    }
+
+    #cabecalho #cabecalho-contato div i {
+        font-size: 22px;
+    }
+
+    #cabecalho #contato-redes-sociais ul {
+        gap: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #cabecalho #contato-redes-sociais ul li {
+        width: 35px;
+        height: 35px;
+    }
+
+    /* INFORMAÇÕES MAIN */
+    #informacoes {
+        padding: 18px 10px;
+    }
+
+    #informacoes h1 {
+        margin-left: 80px !important;
+    }
+
+    #informacoes .box {
+        width: 95%;
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    #informacoes .box h3 {
+        font-size: 20px;
+    }
+
+    #informacoes .box p,
+    #informacoes #experiencia p,
+    #informacoes #cursos h4,
+    #informacoes #cursos p,
+    #informacoes #projetos-escolares ul {
+        font-size: 15px;
+    }
+
+    #informacoes #habilidades div .barra-inferior {
+        height: 14px;
+    }
+
+    #informacoes #baixe-curriculo .btn {
+        font-size: 15px;
+        padding: 8px 16px;
+    }
+
+    /* PROJETOS PESSOAIS */
+    #informacoes #projetos-pessoais {
+        width: 100%;
+        margin: 0;
+    }
+
+    #informacoes #projetos-pessoais-titulo {
+        font-size: 22px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #informacoes #projetos-pessoais #projetos-lista {
+        font-size: 18px;
+        gap: 18px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #informacoes #projetos-pessoais #projetos-lista .bloco-projeto {
+        width: 95%;
+        margin: 20px 0;
+        padding: 12px;
+    }
+
+    #informacoes #projetos-pessoais #projetos-lista div p {
+        font-size: 17px;
+    }
+
+    #informacoes #projetos-pessoais #projetos-lista div .img-projetos {
+        width: 100%;
+        height: 140px;
+    }
+
+    #informacoes #projetos-pessoais #projetos-lista div #img-Stackinho {
+        height: 140px;
+    }
+}
+
+/* ======================FIM DO RESPONSIVO===================== */
